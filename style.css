@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+body{
+    background-color: purple;
+}
+div h1{
+    font-size: 100px;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.date input{
+    /* padding: 20px 10px 20px 50px; */
+}
+.date *{
+    /* height: 70px; */
+    /* background-color: antiquewhite; */
+    border: none;
+}
+#cal_btn{
+    margin-left: 15px;
+    padding: 25px;
+    color: white;
+    background-color: purple; 
+    border-radius: 10px;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+}
+#cal_btn:hover{
+    color: black;
+    background-color: rgb(212, 211, 211);
+}
+
+.date{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 10px black;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin: 50px auto;
+}
+.age{
+    height: 200px;
+    width: 200px;
+    background-color:#06114F;
+    margin: 15px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 10px black;
+}
+.age div{
+    position: relative;
+    /* top: 8%; */
+    text-align: center;
+    font-size: 8em;
+    font-weight: 500;
+}
+.age h3{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;    
+    top: -30px;
+
+}
